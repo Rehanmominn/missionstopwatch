@@ -1,52 +1,39 @@
-body {
-    background-image: url('blackCat.jpg');
-    background-size: cover;
-    background-position: center;
-    font-family: Arial, sans-serif;
-    color: white;
-    /* height: 500px; */
-
-}
-
-.stopwatch-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgb(255, 253, 253);
-    /* height: 500px; */
-}
-
-#time {
+.stopwatch {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 20px;
-    color: #ffffff;
-}
-
-.control-buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-button {
+    text-align: center;
+  }
+  
+  button {
+    font-size: 24px;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     background-color: #4CAF50;
-    color: #ffffff;
+    color: #fff;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #3e8e41;
-}
-
-/* stop{
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }.stopwatch {
+    font-size: 48px;
+    font-weight: bold;
     text-align: center;
-} */
+  }
+  
+  button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
